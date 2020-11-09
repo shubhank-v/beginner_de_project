@@ -27,3 +27,7 @@ __pycache__
 
 # datasets
 *raw_input_data*
+
+# Virtual env
+venv/
+.idea/
