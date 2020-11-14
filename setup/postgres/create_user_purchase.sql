@@ -16,7 +16,7 @@ CREATE TABLE retail.user_purchase (
 -- \i setup/postgres/create_user_purchase.sql
 
 --  \copy retail.user_purchase from 'setup/raw_input_data/retail/OnlineRetail.csv' delimiter ',' csv header;
--- select count(*) from retail.user_purchase
+-- select count(*) from retail.user_purchase;
 COPY retail.user_purchase(invoice_number,
 stock_code,detail,quantity,
 invoice_date,unit_price,customer_id,country)
